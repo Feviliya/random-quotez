@@ -1,0 +1,37 @@
+*{
+  padding: 0px;
+  text-decoration: none;
+}
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+}
+.quote{
+  font-family:monospace;
+  color: rgb(212, 214, 211);
+  font-size: 25px;
+}
+.btn{
+  color: rgb(21, 62, 97);
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(21, 62, 97);
+  color: white;
+}
+.footer{
+  position: fixed;
+  margin-top: 45%;
+  font-size: 20px;
+}
